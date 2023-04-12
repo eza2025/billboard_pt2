@@ -1,0 +1,785 @@
+
+	
+	<style>
+	.header {
+
+		background: #c3c9d4;
+		height: 55px;
+	}
+
+	.chart-conatiner {
+
+		background: transparent;
+		height: 800px;
+		width: 650px;
+		margin-left: 420px;
+		margin-top: 2px;
+		font-family: Arial;
+	}
+
+	.header-center {
+
+		background:transparent;
+		width: 650px;
+		height: 60px;
+		margin-left: 420px;
+		display: flex;
+	}
+
+	.box-logo {
+
+		background: transparent;
+		border: 2px;
+		height: 60px;
+		width: 130px;
+
+	}
+
+	.box-links {
+
+		background:transparent;
+		border: 2px;
+		height: 40px;
+		width: 400px;
+		margin-left: 10px;
+		padding-top: 20px;
+
+	}
+
+	.box-button {
+
+		background: transparent;
+		border: 2px;
+		height: 60px;
+		width: 130px;
+		margin-left: 10px;
+	}
+
+	.charts-soft {
+
+		background: transparent;
+		height: 60px;
+		width: 650px;
+	}
+
+	.charts-up {
+
+		background: rgb(99,174,112);
+		background: linear-gradient(90deg, rgba(99,174,112,1) 23%, rgba(20,149,181,1) 72%, rgba(35,154,168,1) 87%, rgba(36,154,167,1) 87%);
+		height: 90px;
+		width: 650px;
+		margin-top: 7px;
+		display: flex;
+		border-radius: 10px;
+	}
+
+	.charts-new {
+
+		background: rgb(184,118,168);
+		background: linear-gradient(90deg, rgba(184,118,168,1) 17%, rgba(191,58,39,1) 67%);
+		height: 90px;
+		width: 650px;
+		margin-top: 7px;
+		display: flex;
+		border-radius: 10px;
+	}
+
+	.charts-down {
+		background: rgb(44,77,113);
+		background: linear-gradient(90deg, rgba(44,77,113,1) 34%, rgba(208,172,221,1) 78%);
+		height: 90px;
+		width: 650px;
+		margin-top: 7px;
+		display: flex;
+		border-radius: 10px;
+	}
+
+	.charts-rank {
+
+		background: transparent;
+		width: 80px;
+		height: 90px;
+
+	}
+
+	.charts-info {
+
+		background: transparent;
+		width: 360px;
+		height: 90px;
+		margin-left: 2px;
+	}
+
+	.charts-button {
+
+		background: transparent;
+		width: 109px;
+		height: 90px;
+		margin-left: 2px;
+	}
+
+	.charts-img {
+
+		background: transparent;
+		width: 95px;
+		height: 90px;
+		margin-left: 2px;
+	}
+
+	.logo {
+
+		height: 25px;
+		width: 120px;
+		margin-top: 15px;
+	}
+
+	.links-header {
+
+		color: white;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 50px;
+	}
+
+	.links-header1 {
+
+		color: white;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 20px;
+	}
+
+	.links-header2 {
+
+		color: red;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 20px;
+	}
+
+	.links-header3 {
+
+		color: orange;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 20px;
+	}
+
+	.header-button {
+
+		height: 25px;
+		width: 90;
+		background-color: purple;
+		margin-left: 15px;
+		margin-top: 15px;
+		border-radius: 5px;
+		border: none;
+		color:white;
+		font-size: 10px;
+
+	}
+
+	.button-level {
+
+		height: 26px;
+		width: 95px;
+		margin-top: 15px;
+		background-color: orange;
+		border: none;
+		border-radius: 2px;
+		color: white;
+	}
+
+	.button-level2 {
+
+		height: 26px;
+		width: 95px;
+		margin-top: 15px;
+		background-color: red;
+		border: none;
+		border-radius: 2px;
+		color: white;
+	}
+
+	.button-level3 {
+
+		height: 26px;
+		width: 95px;
+		margin-top: 15px;
+		background-color: green;
+		border: none;
+		border-radius: 2px;
+		color: white;
+	}
+
+	.button-level4 {
+
+		height: 26px;
+		width: 95px;
+		margin-top: 15px;
+		background-color: purple;
+		border: none;
+		border-radius: 2px;
+		color: white;
+	}
+
+	.rank1 {
+
+		color: black;
+		font-weight: bold;
+		margin-left: 30px;
+		margin-top: 15px;
+		font-size: 30px;
+
+	}
+
+	.rank-lvl1 {
+
+		color:green ;
+		font-weight: bold;
+		margin-left: 33px;
+		margin-top:  -10px;
+	}
+
+	.rank-lvl2{
+
+		color: orange;
+		font-weight: bold;
+		margin-left: 26px;
+		margin-top:  -10px;
+	}
+
+	.rank-lvl3 {
+		color: red;
+		font-weight: bold;
+		margin-left: 23px;
+		margin-top:  -10px;
+	}
+
+	.info1 {
+
+		color: #123667;
+	}
+
+	.info-lvl1 {
+
+		color:white;
+		margin-top: -8px;
+	}
+
+	.charts-button1{
+
+		background-color:white;
+		height: 28px;
+		width: 90px;
+		border: none;
+		border-radius: 2px;
+		margin-top: 35px;
+		margin-left: 18px;
+		color: white;
+		background-color: green;
+	}
+
+	.charts-button2{
+
+		background-color:white;
+		height: 28px;
+		width: 105px;
+		border: none;
+		border-radius: 2px;
+		margin-top: 35px;
+		color: white;
+		background-color: blue;
+		margin-left: 2px;
+	}
+
+	.img1 {
+
+
+		height:70px;
+		width:70px;
+		margin-left: 16px;
+		margin-top: 10px;
+		border-radius: 5px;
+
+	}
+</style>	
+
+<head><style>
+	/*вот так ставятся комментарии внутри style*/
+	.header {
+
+		background: #c3c9d4;
+		height: 55px;
+	}
+
+	.chart-conatiner {
+
+		background: transparent;
+		height: 800px;
+		width: 650px;
+		margin-left: 420px;
+		margin-top: 2px;
+		font-family: Arial;
+	}
+
+	.header-center {
+
+		background:transparent;
+		width: 650px;
+		height: 60px;
+		margin-left: 420px;
+		display: flex;
+	}
+
+	.box-logo {
+
+		background: transparent;
+		border: 2px;
+		height: 60px;
+		width: 130px;
+
+	}
+
+	.box-links {
+
+		background:transparent;
+		border: 2px;
+		height: 40px;
+		width: 400px;
+		margin-left: 10px;
+		padding-top: 20px;
+
+	}
+
+	.box-button {
+
+		background: transparent;
+		border: 2px;
+		height: 60px;
+		width: 130px;
+		margin-left: 10px;
+	}
+
+	.charts-soft {
+
+		background: transparent;
+		height: 60px;
+		width: 650px;
+	}
+
+	.charts-up {
+
+		background: #ffe8bb;
+		height: 90px;
+		width: 650px;
+		margin-top: 7px;
+		display: flex;
+		border-radius: 10px;
+		border-style: solid;
+	}
+
+	.charts-rank {
+
+		background: transparent;
+		width: 80px;
+		height: 90px;
+
+	}
+
+	.charts-info {
+
+		background: transparent;
+		width: 360px;
+		height: 90px;
+		margin-left: 2px;
+	}
+
+	.charts-button {
+
+		background: transparent;
+		width: 109px;
+		height: 90px;
+		margin-left: 2px;
+	}
+
+	.charts-img {
+
+		background: transparent;
+		width: 95px;
+		height: 90px;
+		margin-left: 2px;
+	}
+
+	.logo {
+
+		height: 25px;
+		width: 120px;
+		margin-top: 15px;
+	}
+
+	.links-header {
+
+		color: white;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 50px;
+	}
+
+	.links-header1 {
+
+		color: white;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 20px;
+	}
+
+	.links-header2 {
+
+		color: red;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 20px;
+	}
+
+	.links-header3 {
+
+		color: orange;
+		font-size: 15px;
+		text-decoration: none;
+		font-family: Arial;
+		margin-left: 20px;
+	}
+
+	.header-button {
+
+		height: 25px;
+		width: 90;
+		background-color: gray;
+		margin-left: 15px;
+		margin-top: 15px;
+		border-radius: 5px;
+		border: none;
+		color:white;
+		font-size: 10px;
+
+	}
+
+	.button-level {
+
+		height: 26px;
+		width: 95px;
+		margin-top: 15px;
+		background-color: gray;
+		border: none;
+		border-radius: 2px;
+		color: white;
+	}
+
+	.rank1 {
+
+		color: black;
+		font-weight: bold;
+		margin-left: 30px;
+		margin-top: 15px;
+		font-size: 30px;
+
+	}
+
+	.rank-lvl1 {
+
+		color:green ;
+		font-weight: bold;
+		margin-left: 33px;
+		margin-top:  -10px;
+	}
+
+	.rank-lvl2{
+
+		color: orange;
+		font-weight: bold;
+		margin-left: 26px;
+		margin-top:  -10px;
+	}
+
+	.rank-lvl3 {
+		color: red;
+		font-weight: bold;
+		margin-left: 23px;
+		margin-top:  -10px;
+	}
+
+	.info1 {
+
+		color: #123667;
+	}
+
+	.info-lvl1 {
+
+		color:gray;
+		margin-top: -8px;
+	}
+
+	.charts-button1{
+		background-color:gray;
+		height: 28px;
+		width: 90px;
+		border: none;
+		border-radius: 2px;
+		margin-top: 35px;
+		margin-left: 18px;
+		color: white;
+	}
+
+	.charts-button2{
+		background-color:gray;
+		height: 30px;
+		width: 103px;
+		border: none;
+		border-radius: 2px;
+		margin-top: 35px;
+		margin-left: 10px;
+		color: white;
+	}
+
+	.img1 {
+
+
+		height:70px;
+		width:70px;
+		margin-left: 16px;
+		margin-top: 10px;
+		border-radius: 5px;
+
+	}
+
+
+</style>
+<!-- 1 уровень. шапка -->
+</head>
+
+<body><div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center">
+		<!-- 3 уровень -->
+		<div class="box-logo">
+			<img src="logo.png" class="logo">
+		</div>
+		<!-- ссылки -->
+		<div class="box-links"> 
+			<a href="" class="links-header">CHARTS</a>
+			<a href="" class="links-header1">NEWS</a>
+			<a href="" class="links-header2">VIDEO</a>
+			<a href="" class="links-header3">PHOTOS</a>
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-button">
+			<button class="header-button">SUBSCRIBE</button>
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="chart-conatiner">
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="charts-soft">
+		<button class="button-level">THIS WEEK</button>
+		<button class="button-level">LAST WEEK</button>
+		<button class="button-level">PEAK</button>
+		<button class="button-level">DURATION</button>
+	</div>
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank1">1</h1>
+			<h6 class="rank-lvl1">UP</h6>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h4 class="info1">Savage Love (Laxed - Siren Beat)</h4>
+			<h5 class="info-lvl1">Jaws 685 x Jason Derulo x BTS</h5>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="charts-button2">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="1.jpg" class="img1">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank1">2</h1>
+			<h6 class="rank-lvl2">NEW</h6>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h4 class="info1">Dynamite</h4>
+			<h5 class="info-lvl1">BTS</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="charts-button1">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="2.jpg" class="img1">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank1">3</h1>
+			<h6 class="rank-lvl2">NEW</h6>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h4 class="info1">WAP</h4>
+			<h5 class="info-lvl1">Cardi B featuring Megan Thee Stallion</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="charts-button1">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="3.jpg" class="img1">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank1">4</h1>
+			<h6 class="rank-lvl1">UP</h6>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h4 class="info1">Mood</h4>
+			<h5 class="info-lvl1">24kGoldn featuring iann dior</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="charts-button1">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="4.jpg" class="img1">
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank1">5</h1>
+			<h6 class="rank-lvl3">DOWN</h6>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h4 class="info1">Laugh Now Cry Later</h4>
+			<h5 class="info-lvl1">Drake featuring Lil Durk</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="charts-button1">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="5.jpg" class="img1">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank1">6</h1>
+			<h6 class="rank-lvl1">UP</h6>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h4 class="info1">Blinding Lights</h4>
+			<h5 class="info-lvl1">The Weekend</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="charts-button2">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="6.jpg" class="img1">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 class="rank1">7</h1>
+			<h6 class="rank-lvl2">NEW</h6>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h4 class="info1">Rockstar</h4>
+			<h5 class="info-lvl1">DaBaby Featuring Roddy Ricch</h5>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button class="charts-button2">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="7.jpg" class="img1">
+		</div>		
+	</div>
+</div>
+<!-- 
+
+1.Savage Love (Laxed - Siren Beat)
+Jaws 685 x Jason Derulo x BTS
+
+2.Dynamite
+BTS
+
+3.WAP
+Cardi B featuring Megan Thee Stallion
+
+4.Mood
+24kGoldn featuring iann dior
+
+5.Laugh Now Cry Later
+Drake featuring Lil Durk
+
+6.Blinding Lights
+The Weekend
+
+7.Rockstar
+DaBaby Featuring Roddy Ricch
+--></body>
